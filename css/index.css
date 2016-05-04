@@ -1,0 +1,667 @@
+@font-face {
+    font-family:architectsdaughter;
+    src: url(/fonts/architectsdaughter.ttf); 
+}
+@font-face {
+    font-family:BerkshireSwash-Regular;
+    src: url(/fonts/BerkshireSwash-Regular.ttf); 
+}
+html,body,nav{
+    height:100%;
+    width:100%;
+    top:0%;
+}
+*{
+    margin: 0;
+}
+body.startpage{
+    background-size: auto auto;
+    background-color:#F6F8F7;
+    background-image: url(/bg/startpage.jpg);
+    background-repeat: no-repeat;
+}
+body{
+    background-position: center;
+}
+body,button{
+    font-family:ArchitectsDaughter;
+}
+header.startpage{
+    top:0;
+    height:10%;
+}
+header{
+    font-family:BerkshireSwash-Regular;
+}
+h1.startpage{
+    z-index:2;
+    width:100%;
+    position:fixed;
+    top:3%;
+    color:#1C1C1C;
+    background-color:#F6F8F7; 
+    text-align: center;
+}
+a,button, h1{
+    position: absolute;
+    text-decoration: none;
+}
+a.startpage{
+    border-color: #1C1C1C;
+    border-width: 10px;
+    font-size:xx-large;
+    color:#1C1C1C;
+}
+nav.startpage{
+    position:absolute;
+    height:90%;
+    width:100%;
+}
+a.startpage:hover{
+    display: inline;
+    color:red;
+}
+#stlinkme{
+    top:10%;
+    left:10%;
+}
+#stlinkskills{
+    top:10%;
+    right:10%;
+}
+#stlinkhobbies{
+    bottom:10%;
+    left:10%;
+}
+#stlinkcontacts{
+    bottom:10%;
+    right:10%;
+}
+.bgfa{
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:30%;
+    height:30%;
+    min-width:100px;
+    padding:2%;
+}
+.backgroundcontacts{
+    opacity: 0.9;
+    background-image: url(/imgs/startrefs/contacts.jpg);
+    bottom:0%;
+    right:0%;
+}
+.backgroundskills{
+    opacity: 0.9;
+    background-image: url(/imgs/startrefs/skills.jpg);
+    top:0%;
+    right:0%;
+}
+
+.backgroundsme{
+    opacity: 0.9;
+    background-image: url(/imgs/startrefs/me.png);
+    top:0%;
+    left:0%;
+}
+
+.backgroundshobbies{
+    opacity: 0.9;
+    background-image: url(/imgs/startrefs/hobbies.jpg);
+    bottom:0%;
+    left:0%;
+}
+body.mepage{
+    background-size: auto auto;
+    background-position: right;
+    background-color:#F6F8F7;
+    background-image: url(/bg/mepage.png);
+    background-repeat: no-repeat;
+}
+h1.mepage{
+    background-color: #F6F8F7;
+    z-index:2;
+    left:15%;
+    width:85%;
+    position:fixed;
+    color:#1C1C1C;
+    text-align: center
+}
+main.mepage{
+    background-color: #F6F8F7;
+    font-size: xx-large;
+    left: 20%;
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    top: 85%; 
+}
+a.mepage,#intlinkme,#intlinkcontacts,#intlinkskills,#intlinkstart,#clinkme,#clinkhobbies,#clinkskills,#clinkstart,#sklinkme,#sklinkhobbies,#sklinkcontacts,#sklinkstart{
+    line-height:1000%;
+    text-align: center;
+    font-size:large;
+    text-decoration: none;
+    color:#1C1C1C;
+    height:25%;
+    width: 15%;
+    left:0%;
+}
+a.mepage{
+background-color: #F6F8F7;
+}
+a.mepage:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#myinformation {
+    text-align: center;
+}
+#mlinkstart{
+    top: 0%; 
+}
+#mlinkskills{
+    top: 25%;
+}
+#mlinkcontacts{
+    top: 50%;
+}
+#mlinkhobbies{
+    top: 75%; 
+}
+body.intpage {
+    background-size: 85% 100%;
+    background-image: url(/bg/interests.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #EFEEEB;
+}
+header.intpage{
+    position: fixed;    
+    top:24%;
+    width:50%;
+    left:25%;
+    height:15%;
+}
+h1.intpage{
+    left: 15%;
+    background-color: #EFEEEB;
+    height:100%;
+    width:85%;
+    color:#1C1C1C;
+    text-align: center
+}
+
+#intlinkme,#intlinkcontacts,#intlinkskills,#intlinkstart{
+    background-color: #EFEEEB;
+}
+#intlinkstart{
+    top:0%;
+}
+#intlinkme{
+    top:25%;
+}
+#intlinkcontacts{
+    top:50%;
+}
+#intlinkskills{
+    top:75%;
+}
+#intlinkstart:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#intlinkme:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#intlinkcontacts:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#intlinkskills:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+a.intpage{
+    font-size:xx-large;
+}
+#intlinkmusic{
+    color:red;
+    top: 38%; 
+    right:35%;
+}
+#intlinkvideos{
+    color: green;
+    top: 68%; 
+    right:35%;
+}
+#intlinkbooks{
+    color: blue;
+    top: 38%; 
+    left: 45%;
+}
+#intlinkgames{
+    color:orange;
+    top: 68%; 
+    left:45%;
+}
+#intlinkmusic:hover{
+    display: inline;
+    color:yellow;
+}
+#intlinkbooks:hover{
+    display: inline;
+    color:grey;
+}
+#intlinkgames:hover{
+    display: inline;
+    color:grey;
+}
+#intlinkvideos:hover{
+    display: inline;
+    color:grey;
+}
+#intstartpage{
+    font-size: large;
+    color:#626262;
+    background-color:#EFEEEB;
+    width:9%;
+}
+body.contact {
+    background-size: 85% 100%;
+    font-size: x-large;
+    background-image: url(/bg/contacts.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FEFEFE;
+}
+a.contact, h1.contact, main.contact {
+    text-decoration: none;
+    position: absolute;
+}
+header.contact{
+    position: absolute;
+    top:18%;
+    width:85%;
+    left:15%;
+    height:15%;
+}
+h1.contact{
+    background-color:#FCFDFD;
+    width: auto;
+    position: absolute;
+    width: 100%;
+    color:#57585A;
+    text-align: center;
+}
+#clinkme,#clinkhobbies,#clinkskills,#clinkstart{
+background-color:#FCFDFD;
+    
+}
+#clinkstart{
+    top:0%;
+}
+#clinkme{
+    top:25%;
+}
+#clinkhobbies{
+    top:50%;
+}
+#clinkskills{
+    top:75%;
+}
+#clinkstart:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#clinkhobbies:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#clinkme:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#clinkskills:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#contactp1{
+    font-size:larger;
+    color:blue;
+}
+#contactp2{
+    font-size:larger;
+    color:red;
+}
+#legendcontact1{
+    color:orange;
+    
+}
+nav.contact{
+    width: 100%;
+    position: fixed;
+    top:0%;
+    height:100%;
+}
+#fieldsetcontact1{
+    color:orange;
+    background-color: #58585A;
+}
+#linkfb{
+    left:41%;
+    color:#C47CFF;
+}
+#linkvk{
+    left:42%;
+    color: green;
+}
+main.contact{
+    left:15%;
+    width: 85%;
+    text-align: center;
+    top:30%;
+    background-color:#FCFDFD;
+}
+li{
+    width: 85%;
+    text-align: center;
+}
+
+body.skillspage{
+    background-color: #FDFDFD;
+    background-image: url(/bg/skill.jpg);
+    background-position: center;
+    background-repeat: repeat;
+}
+header.skillspage{
+    z-index: 4;
+    background-color: white;
+    text-align: center;
+    color:green;
+    left:10%;
+    width: 100%
+}
+nav.skillspage{
+    z-index: 4;
+    position: absolute;
+    height:100%;
+    left:0%;
+    width:100%; 
+}
+#a1{
+    height: 27%;
+    z-index: -1;
+    border-radius: 30%;
+    background-color: blue;
+    font-size: xx-large;
+    left: 40%;
+    position: fixed;
+    color: yellow;
+    top:10%;
+    width: 35%;
+    text-align:center;
+}
+#a2{
+    height: 27%;
+    z-index: -1;
+    border-radius: 30%;
+    background-color: #BDFF22;
+    font-size: xx-large;
+    left:40%;
+    position: fixed;
+    color: blue;
+    top:50%;
+    width: 35%;
+    text-align:center;
+}
+#sklinkme,#sklinkhobbies,#sklinkcontacts,#sklinkstart{
+background-color:#FCFDFD;
+}
+#sklinkstart{
+    top:0%;
+}
+#sklinkme{
+    top:25%;
+}
+#sklinkhobbies{
+    top:50%;
+}
+#sklinkcontacts{
+    top:75%;
+}
+#sklinkstart:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#sklinkhobbies:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#sklinkme:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#sklinkcontacts:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+h1.bookspage, h1.gamespage,h1.videospage,h1.audiospage{
+    height:100%;
+    width:100%;
+}
+
+body.bookspage {
+    background-size: 80% 100%;
+    background-color: #F4D421;
+    background-image: url(/bg/books.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header.bookspage,header.gamespage,header.videospage,header.audiospage{
+    z-index: 4;
+    position: fixed;
+    text-align: center;
+    color:green;
+    left:10%;
+    width: 80%;
+    height: 75px;
+}
+header.bookspage{
+    background-color:#F4D421; 
+}
+a.bookspage, aside.bookspage, a.gamespage, aside.gamespage, a.videospage, aside.videospage, a.audiospage, aside.audiospage {
+    text-decoration: none;
+    position: absolute;
+}
+aside.bookspage, aside.gamespage, aside.videospage{
+     width:25%;
+    height:86%;
+    top:12%;
+    overflow:scroll;
+}
+#fa{
+    position: absolute;
+    left:12%;
+}
+#sa{
+    position: absolute;
+    left:38%;
+}
+#ta{
+    position: absolute;
+    left:64%;
+}
+#faf,#saf,#taf{
+    font-size: medium;
+}
+.linksheref, #faf{
+    background-color:#AB14CC;
+}
+.linksheres, #saf{
+    background-color:#FFB700;
+}
+.linksheret, #taf{
+    background-color:#00FFA9;
+}
+nav.bookspage{
+    position: absolute;
+    top:0%;
+    height:100%;
+    width:100%; 
+}
+.linkshere:hover{
+    display: inline;
+    color:orange;
+}
+#bklinkstart, #bklinkme, #bklinkhobbies, #bklinkcontacts, #bklinkskills{
+    line-height:800%;
+    text-align: center;
+    font-size:large;
+    text-decoration: none;
+    height:20%;
+    width: 10%;
+    left:0%;
+}
+#bklinkstart{
+    top:0%;
+    background-color: #2176F4;
+}
+#bklinkme{
+    top:20%;
+    background-color: #0CE8D7;
+}
+#bklinkhobbies{
+    top:40%;
+    background-color: #00FF33;
+}
+#bklinkcontacts{
+    top:60%;
+    background-color: #98E80C;
+}
+#bklinkskills{
+    top:80%;
+    background-color: #E8400C;
+}
+#bklinkstart:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#bklinkhobbies:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#bklinkme:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#bklinkcontacts:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#bklinkskills:hover{
+    display: block;
+    color:yellow;
+    background-color: black;
+}
+#bklinkbooks, #bklinkvideos, #bklinkmusic, #bklinkgames{
+    line-height:1000%;
+    text-align: center;
+    font-size:large;
+    text-decoration: none;
+    height:25%;
+    width: 10%;
+    right: 0%;
+}
+#bklinkbooks{
+    top:0%;
+    background-color: #2CFF0D;
+}
+#bklinkvideos{
+    top:25%;
+    background-color: #0CA8E8;
+}
+#bklinkmusic{
+    top:50%;
+    background-color: #A000FF;
+}
+#bklinkgames{
+    top:75%;
+    background-color: #E8400C;
+}
+#bklinkbooks:hover{
+    display: block;
+    color:blue;
+    background-color: white;
+}
+#bklinkvideos:hover{
+    display: block;
+    color:blue;
+    background-color: white;
+}
+#bklinkmusic:hover{
+    display: block;
+    color:blue;
+    background-color: white;
+}
+#bklinkgames:hover{
+    display: block;
+    color:blue;
+    background-color: white;
+}
+body.gamespage {
+    background-size: 80% 100%;
+    background-color: #F4F4F4;
+    background-image: url(/bg/game.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header.gamespage{
+    background-color:#F4F4F4; 
+}
+body.videospage {
+    background-size: 80% 100%;
+    background-color: #FFFFFF;
+    background-image: url(/bg/video.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header.videospage{
+    background-color:#FFFFFF; 
+}
+body.audiospage{
+    background-size: 80% 100%;
+    background-color: #C8C9CB;
+    background-image: url(/bg/music.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header.audiospage{
+    background-color: #C8C9CB;
+}
+#fl{
+    background-color: #C8C9CB;
+    position: fixed;
+    right:11%;
+    top:30%;
+    height: 470px;
+    width:300px;
+}
