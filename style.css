@@ -506,16 +506,16 @@ aside.bookspage, aside.gamespage, aside.videospage{
     position: absolute;
     left:64%;
 }
-#faf,#saf,#taf{
+.faf,.saf,.taf{
     font-size: medium;
 }
-.linksheref, #faf{
+.linksheref, .faf{
     background-color:#AB14CC;
 }
-.linksheres, #saf{
+.linksheres, .saf{
     background-color:#FFB700;
 }
-.linksheret, #taf{
+.linksheret, .taf{
     background-color:#00FFA9;
 }
 nav.bookspage{
