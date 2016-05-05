@@ -17,7 +17,7 @@ html,body,nav{
 body.startpage{
     background-size: auto auto;
     background-color:#F6F8F7;
-    background-image: url(/bg/startpage.jpg);
+    background-image: url(bg/startpage.jpg);
     background-repeat: no-repeat;
 }
 body{
@@ -88,27 +88,27 @@ a.startpage:hover{
 }
 .backgroundcontacts{
     opacity: 0.9;
-    background-image: url(/imgs/startrefs/contacts.jpg);
+    background-image: url(imgs/startrefs/contacts.jpg);
     bottom:0%;
     right:0%;
 }
 .backgroundskills{
     opacity: 0.9;
-    background-image: url(/imgs/startrefs/skills.jpg);
+    background-image: url(imgs/startrefs/skills.jpg);
     top:0%;
     right:0%;
 }
 
 .backgroundsme{
     opacity: 0.9;
-    background-image: url(/imgs/startrefs/me.png);
+    background-image: url(imgs/startrefs/me.png);
     top:0%;
     left:0%;
 }
 
 .backgroundshobbies{
     opacity: 0.9;
-    background-image: url(/imgs/startrefs/hobbies.jpg);
+    background-image: url(imgs/startrefs/hobbies.jpg);
     bottom:0%;
     left:0%;
 }
@@ -116,7 +116,7 @@ body.mepage{
     background-size: auto auto;
     background-position: right;
     background-color:#F6F8F7;
-    background-image: url(/bg/mepage.png);
+    background-image: url(bg/mepage.png);
     background-repeat: no-repeat;
 }
 h1.mepage{
@@ -172,7 +172,7 @@ a.mepage:hover{
 }
 body.intpage {
     background-size: 85% 100%;
-    background-image: url(/bg/interests.png);
+    background-image: url(bg/interests.png);
     background-position: right;
     background-repeat: no-repeat;
     background-color: #EFEEEB;
@@ -276,7 +276,7 @@ a.intpage{
 body.contact {
     background-size: 85% 100%;
     font-size: x-large;
-    background-image: url(/bg/contacts.jpg);
+    background-image: url(bg/contacts.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-color: #FEFEFE;
@@ -380,7 +380,7 @@ li{
 
 body.skillspage{
     background-color: #FDFDFD;
-    background-image: url(/bg/skill.jpg);
+    background-image: url(bg/skill.jpg);
     background-position: center;
     background-repeat: repeat;
 }
@@ -468,7 +468,7 @@ h1.bookspage, h1.gamespage,h1.videospage,h1.audiospage{
 body.bookspage {
     background-size: 80% 100%;
     background-color: #F4D421;
-    background-image: url(/bg/books.jpg);
+    background-image: url(bg/books.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -630,7 +630,7 @@ nav.bookspage{
 body.gamespage {
     background-size: 80% 100%;
     background-color: #F4F4F4;
-    background-image: url(/bg/game.jpg);
+    background-image: url(bg/game.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -640,7 +640,7 @@ header.gamespage{
 body.videospage {
     background-size: 80% 100%;
     background-color: #FFFFFF;
-    background-image: url(/bg/video.jpg);
+    background-image: url(bg/video.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -650,7 +650,7 @@ header.videospage{
 body.audiospage{
     background-size: 80% 100%;
     background-color: #C8C9CB;
-    background-image: url(/bg/music.jpg);
+    background-image: url(bg/music.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
