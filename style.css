@@ -277,11 +277,11 @@ body.contact {
     background-size: 85% 100%;
     font-size: x-large;
     background-image: url(/bg/contacts.jpg);
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-color: #FEFEFE;
 }
-a.contact, h1.contact, main.contact {
+a.contact, h1.contact, aside.contact {
     text-decoration: none;
     position: absolute;
 }
@@ -366,7 +366,7 @@ nav.contact{
     left:42%;
     color: green;
 }
-main.contact{
+aside.contact{
     left:15%;
     width: 85%;
     text-align: center;
