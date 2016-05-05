@@ -18,10 +18,14 @@ a{
     margin: 0;
 }
 body.startpage{
+    display:block;
     background-size: auto auto;
     background-color:#F6F8F7;
     background-image: url(bg/startpage.jpg);
     background-repeat: no-repeat;
+}
+.mepage, .intpage, .contact, .skillspage, .bookspage , .gamespage, .videospage, .audiospage{
+    display:none;
 }
 body{
     background-position: center;
