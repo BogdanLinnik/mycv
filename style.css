@@ -11,6 +11,9 @@ html,body,nav{
     width:100%;
     top:0%;
 }
+a{
+    z-index: 3;
+}
 *{
     margin: 0;
 }
@@ -27,6 +30,8 @@ body{
     font-family:architectsdaughter;
 }
 header.startpage{
+    background-color:#F6F8F7;
+    z-index: 4;
     top:0;
     height:10%;
 }
@@ -34,7 +39,6 @@ header{
     font-family:BerkshireSwash-Regular;
 }
 h1.startpage{
-    z-index:2;
     width:100%;
     position:fixed;
     top:3%;
@@ -394,7 +398,6 @@ header.skillspage{
     width: 100%
 }
 nav.skillspage{
-    z-index: 4;
     position: absolute;
     height:100%;
     left:0%;
@@ -490,10 +493,11 @@ a.bookspage, aside.bookspage, a.gamespage, aside.gamespage, a.videospage, aside.
     position: absolute;
 }
 aside.bookspage, aside.gamespage, aside.videospage, aside.audiospage{
-    z-index:6;
     width:25%;
     height:86%;
     top:12%;
+}
+aside.bookspage, aside.gamespage, aside.videospage{
     overflow:scroll;
 }
 #fa{
