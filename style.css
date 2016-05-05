@@ -1,6 +1,6 @@
 @font-face {
     font-family:architectsdaughter;
-    src: url(fonts/architectsdaughter.ttf); 
+    src: url(/fonts/architectsdaughter.ttf); 
 }
 @font-face {
     font-family:BerkshireSwash-Regular;
@@ -23,7 +23,7 @@ body.startpage{
 body{
     background-position: center;
 }
-body,button{
+body{
     font-family:ArchitectsDaughter;
 }
 header.startpage{
@@ -367,6 +367,7 @@ nav.contact{
     color: green;
 }
 aside.contact{
+    z-index:6;
     left:15%;
     width: 85%;
     text-align: center;
@@ -488,8 +489,9 @@ a.bookspage, aside.bookspage, a.gamespage, aside.gamespage, a.videospage, aside.
     text-decoration: none;
     position: absolute;
 }
-aside.bookspage, aside.gamespage, aside.videospage{
-     width:25%;
+aside.bookspage, aside.gamespage, aside.videospage, aside.audiospage{
+    z-index:6;
+    width:25%;
     height:86%;
     top:12%;
     overflow:scroll;
