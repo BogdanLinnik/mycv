@@ -1,10 +1,10 @@
 @font-face {
     font-family:architectsdaughter;
-    src: url(/fonts/architectsdaughter.ttf); 
+    src: url(fonts/architectsdaughter.ttf); 
 }
 @font-face {
     font-family:BerkshireSwash-Regular;
-    src: url(/fonts/BerkshireSwash-Regular.ttf); 
+    src: url(fonts/BerkshireSwash-Regular.ttf); 
 }
 html,body,nav{
     height:100%;
