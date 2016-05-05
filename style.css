@@ -261,15 +261,15 @@ a.intpage{
 }
 #intlinkbooks:hover{
     display: inline;
-    color:grey;
+    color:yellow;
 }
 #intlinkgames:hover{
     display: inline;
-    color:grey;
+    color:yellow;
 }
 #intlinkvideos:hover{
     display: inline;
-    color:grey;
+    color:yellow;
 }
 #intstartpage{
     font-size: large;
