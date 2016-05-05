@@ -65,10 +65,6 @@ nav.startpage{
     height:90%;
     width:100%;
 }
-a.startpage:hover{
-    display: inline;
-    color:red;
-}
 #stlinkme{
     top:10%;
     left:10%;
