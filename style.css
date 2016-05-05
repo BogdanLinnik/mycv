@@ -17,7 +17,7 @@ html,body,nav{
 body.startpage{
     background-size: auto auto;
     background-color:#F6F8F7;
-    background-image: url(startpage.jpg);
+    background-image: url(bg/startpage.jpg);
     background-repeat: no-repeat;
 }
 body{
