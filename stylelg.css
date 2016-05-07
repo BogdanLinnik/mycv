@@ -16,6 +16,9 @@ html,body,nav{
     width:100%;
     top:0%;
 }
+body{
+    position:relative;
+}
 a{
     color:black;
     z-index: 3;
@@ -456,9 +459,9 @@ li{
 
 body.skillspage{
     background-color: #FDFDFD;
-    background-image: url(bg/skill.jpg);
+    background-image: url(bg/skilllg.jpg);
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     max-width:2000px;
     max-height:1200px;
 }
@@ -569,7 +572,7 @@ body.bookspage {
     background-color: #F4D421;
     background-image: url(bg/books.jpg);
     background-position: center;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
 }
 h1.bookspage{
     background-color:#F4D421; 
@@ -603,7 +606,7 @@ aside.bookspage, aside.gamespage, aside.videospage{
 }
 #navigation1{
     z-index:1;
-    position: fixed;
+    position: absolute;
     top:0%;
     left:0%;
     height:100%;
@@ -611,7 +614,7 @@ aside.bookspage, aside.gamespage, aside.videospage{
 }
 #navigation2{
     z-index:1;
-    position: fixed;
+    position: absolute;
     top:0%;
     right:0%;
     height:100%;
@@ -735,7 +738,7 @@ body.gamespage {
     background-color: #F4F4F4;
     background-image: url(bg/game.jpg);
     background-position: center;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
 }
 h1.gamespage{
     font-size:1.5em;
@@ -746,7 +749,7 @@ body.videospage {
     background-color: #FFFFFF;
     background-image: url(bg/video.jpg);
     background-position: center;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
 }
 h1.videospage{
     font-size:1.5em;
@@ -759,7 +762,7 @@ body.audiospage{
     background-color: #C8C9CB;
     background-image: url(bg/music.jpg);
     background-position: center;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
 }
 h1.audiospage{
     background-color: #C8C9CB;
