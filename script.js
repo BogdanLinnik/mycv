@@ -78,7 +78,7 @@ $(document).ready(function() {
   }
   $('#stlinkcontacts').on('mouseenter', function() {
     if($(window).width()>991){
-      $(this).toggleClass('backgroundcontacts bgfa').animate({'bottom':'15%'},'slow');
+      $(this).toggleClass('backgroundcontacts bgfa').animate({'bottom':'5%' ,'left':'15%','width':'85%'},'slow');
       $('.linktextc').toggle('slow');
     }else if($(window).width()>767){
       $(this).toggleClass('backgroundcontacts bgfa').animate({'left':'10%','margin':'0 0'},'slow');
@@ -90,7 +90,7 @@ $(document).ready(function() {
     });
   $('#stlinkcontacts').on('mouseleave', function() {
     if($(window).width()>991){
-      $(this).toggleClass('backgroundcontacts bgfa').animate({'bottom':'10%'},'slow');
+      $(this).toggleClass('backgroundcontacts bgfa').animate({'bottom':'10%','left':'0','width':'100%'},'slow');
       $('.linktextc').toggle('slow');
     }else if($(window).width()>767){
       $(this).toggleClass('backgroundcontacts bgfa').animate({'left':'0%'},'slow');
@@ -102,7 +102,7 @@ $(document).ready(function() {
     });
   $('#stlinkskills').on('mouseenter', function() {
     if($(window).width()>991){
-      $(this).toggleClass('backgroundskills bgfa').animate({'top':'15%'},'slow');
+      $(this).toggleClass('backgroundskills bgfa').animate({'top':'5%','left':'15%','width':'85%'},'slow');
       $('.linktexts').toggle('slow');
     }else if($(window).width()>767){
       $(this).toggleClass('backgroundskills bgfa').animate({'left':'10%','margin':'0 0'},'slow');
@@ -114,7 +114,7 @@ $(document).ready(function() {
     });
   $('#stlinkskills').on('mouseleave', function() {
     if($(window).width()>991){
-      $(this).toggleClass('backgroundskills bgfa').animate({'top':'10%'},'slow');
+      $(this).toggleClass('backgroundskills bgfa').animate({'top':'10%','left':'0%','width':'100%'},'slow');
       $('.linktexts').toggle('slow');
     }else if($(window).width()>767){
       $(this).toggleClass('backgroundskills bgfa').animate({'left':'0%'},'slow');
@@ -126,7 +126,7 @@ $(document).ready(function() {
     });
   $('#stlinkme').on('mouseenter', function() {
     if($(window).width()>991){
-      $(this).toggleClass('backgroundsme bgfa').animate({'top':'15%','left':'5%'},'slow');
+      $(this).toggleClass('backgroundsme bgfa').animate({'top':'5%','left':'-5%'},'slow');
       $('.linktextm').toggle('slow');
     }else if($(window).width()>767){
       $(this).toggleClass('backgroundsme bgfa').animate({'left':'10%'},'slow');
@@ -150,7 +150,7 @@ $(document).ready(function() {
     });
   $('#stlinkhobbies').on('mouseenter', function() {
     if($(window).width()>991){
-      $(this).toggleClass('backgroundshobbies bgfa').animate({'bottom':'15%','left':'5%'},'slow');
+      $(this).toggleClass('backgroundshobbies bgfa').animate({'bottom':'5%','left':'-5%','width':'85%'},'slow');
       $('.linktexth').toggle('slow');
     }else if($(window).width()>767){
       $(this).toggleClass('backgroundshobbies bgfa').animate({'left':'10%'},'slow');
@@ -162,7 +162,7 @@ $(document).ready(function() {
     });
   $('#stlinkhobbies').on('mouseleave', function() {
     if($(window).width()>991){
-      $(this).toggleClass('backgroundshobbies bgfa').animate({'bottom':'10%','left':'0%'},'slow');
+      $(this).toggleClass('backgroundshobbies bgfa').animate({'bottom':'10%','left':'0%','width':'100%'},'slow');
       $('.linktexth').toggle('slow');
     }else if($(window).width()>767){
       $(this).toggleClass('backgroundshobbies bgfa').animate({'left':'0%'},'slow');
