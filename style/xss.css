@@ -13,3 +13,18 @@ body.mepage{
 a.intpage{
     font-size: large;
 }
+#mlinkstart{
+    top: 0%; 
+}
+#mlinkme{
+    top:18%;
+}
+#mlinkskills{
+    top: 36%;
+}
+#mlinkcontacts{
+    top: 54%; 
+}
+#mlinkhobbies{
+    top:72%;
+}
