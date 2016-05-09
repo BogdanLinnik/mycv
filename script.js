@@ -75,6 +75,14 @@ $(document).ready(function() {
       $('body, div.container').addClass('bookspage');
       $('.bookspage').show();
       $('title').text('Books');
+      $('#bklinkbooks').css('width','115%');
+      $('#bklinkbooks').css('height','15%');
+      $('#bklinkbooks').css('top','5%');
+      $('#bklinkvideos, #bklinkmusic, #bklinkgames').css('width','100%');
+      $('#bklinkvideos, #bklinkmusic, #bklinkgames').css('height','25%');
+      $('#bklinkvideos').css('top','25%');
+      $('#bklinkmusic').css('top','50%');
+      $('#bklinkgames').css('top','75%');
       break;
     case '7':
       $('.intpage, .audiospage, .bookspage, .videospage, .startpage').hide();
@@ -82,6 +90,14 @@ $(document).ready(function() {
       $('body, div.container').addClass('gamespage');
       $('.gamespage').show();
       $('title').text('Games');
+      $('#bklinkgames').css('width','115%');
+      $('#bklinkgames').css('height','15%');
+      $('#bklinkgames').css('top','80%');
+      $('#bklinkvideos, #bklinkmusic, #bklinkbooks').css('width','100%');
+      $('#bklinkvideos, #bklinkmusic, #bklinkbooks').css('height','25%');
+      $('#bklinkvideos').css('top','25%');
+      $('#bklinkmusic').css('top','50%');
+      $('#bklinkbooks').css('top','0%');
       break;
     case '8':
       $('.intpage, .bookspage, .gamespage, .audiospage, .startpage').hide();
@@ -89,6 +105,14 @@ $(document).ready(function() {
       $('body, div.container').addClass('videospage');
       $('.videospage').show();
       $('title').text('Videos');
+      $('#bklinkvideos').css('width','115%');
+      $('#bklinkvideos').css('height','15%');
+      $('#bklinkvideos').css('top','30%');
+      $('#bklinkgames, #bklinkmusic, #bklinkbooks').css('width','100%');
+      $('#bklinkgames, #bklinkmusic, #bklinkbooks').css('height','25%');
+      $('#bklinkgames').css('top','75%');
+      $('#bklinkmusic').css('top','50%');
+      $('#bklinkbooks').css('top','0%');
       break;
     case '9':
       $('.intpage, .bookspage, .gamespage, .videospage, .startpage').hide();
@@ -96,6 +120,14 @@ $(document).ready(function() {
       $('body, div.container').addClass('audiospage');
       $('.audiospage').show();
       $('title').text('Music');
+      $('#bklinkmusic').css('width','115%');
+      $('#bklinkmusic').css('height','15%');
+      $('#bklinkmusic').css('top','55%');
+      $('#bklinkgames, #bklinkvideos, #bklinkbooks').css('width','100%');
+      $('#bklinkgames, #bklinkvideos, #bklinkbooks').css('height','25%');
+      $('#bklinkgames').css('top','75%');
+      $('#bklinkvideos').css('top','25%');
+      $('#bklinkbooks').css('top','0%');
       break;
     default:
       $('.mepage, .intpagexs, .intpage, .contact, .skillspage, .bookspage , .gamespage, .videospage, .audiospage').hide();
@@ -354,6 +386,14 @@ $(document).ready(function() {
     $('body, div.container').addClass('bookspage');
     $('.bookspage').show();
     $('title').text('Books');
+    $('#bklinkbooks').css('width','115%');
+    $('#bklinkbooks').css('height','15%');
+    $('#bklinkbooks').css('top','5%');
+    $('#bklinkvideos, #bklinkmusic, #bklinkgames').css('width','100%');
+    $('#bklinkvideos, #bklinkmusic, #bklinkgames').css('height','25%');
+    $('#bklinkvideos').css('top','25%');
+    $('#bklinkmusic').css('top','50%');
+    $('#bklinkgames').css('top','75%');
     localStorage.setItem(style,6);
     a=localStorage.getItem(style);
   });
@@ -363,6 +403,14 @@ $(document).ready(function() {
     $('body, div.container').addClass('gamespage');
     $('.gamespage').show();
     $('title').text('Games');
+    $('#bklinkgames').css('width','115%');
+    $('#bklinkgames').css('height','15%');
+    $('#bklinkgames').css('top','80%');
+    $('#bklinkvideos, #bklinkmusic, #bklinkbooks').css('width','100%');
+    $('#bklinkvideos, #bklinkmusic, #bklinkbooks').css('height','25%');
+    $('#bklinkvideos').css('top','25%');
+    $('#bklinkmusic').css('top','50%');
+    $('#bklinkbooks').css('top','0%');
     localStorage.setItem(style,7);
     a=localStorage.getItem(style);
   });
@@ -372,6 +420,14 @@ $(document).ready(function() {
     $('body, div.container').addClass('videospage');
     $('.videospage').show();
     $('title').text('Videos');
+    $('#bklinkvideos').css('width','115%');
+    $('#bklinkvideos').css('height','15%');
+    $('#bklinkvideos').css('top','30%');
+    $('#bklinkgames, #bklinkmusic, #bklinkbooks').css('width','100%');
+    $('#bklinkgames, #bklinkmusic, #bklinkbooks').css('height','25%');
+    $('#bklinkgames').css('top','75%');
+    $('#bklinkmusic').css('top','50%');
+    $('#bklinkbooks').css('top','0%');
     localStorage.setItem(style,8);
     a=localStorage.getItem(style);
   });
@@ -381,6 +437,14 @@ $(document).ready(function() {
     $('body, div.container').addClass('audiospage');
     $('.audiospage').show();
     $('title').text('Music');
+    $('#bklinkmusic').css('width','115%');
+    $('#bklinkmusic').css('height','15%');
+    $('#bklinkmusic').css('top','55%');
+    $('#bklinkgames, #bklinkvideos, #bklinkbooks').css('width','100%');
+    $('#bklinkgames, #bklinkvideos, #bklinkbooks').css('height','25%');
+    $('#bklinkgames').css('top','75%');
+    $('#bklinkvideos').css('top','25%');
+    $('#bklinkbooks').css('top','0%');
     localStorage.setItem(style,9);
     a=localStorage.getItem(style);
   });
