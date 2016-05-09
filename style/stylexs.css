@@ -79,6 +79,16 @@ h1.mepage{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#cont1{
+    position:absolute;
+    top:30%;
+    height:26%;
+    width:100%;
+    background-color:#E5E5E5;
+}
+#fieldsetcontact1{
+    height:50%;
+}
 a.mepage{
     text-align: center;
     text-decoration: none;
@@ -136,6 +146,16 @@ h1.intpage{
     right:90%;
     height:auto;
     width:auto;
+}
+#download{
+    padding-left:1%;
+    padding-right: 1%;
+    background-color: #9695E8;
+    border-radius: 30%;
+}
+#download:hover{
+    text-decoration: none;
+    background-color: #E8E095;
 }
 body.contact {
     background-size: 100% 100%;

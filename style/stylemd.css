@@ -165,7 +165,6 @@ body.mepage{
     background-repeat: no-repeat;
 }
 #myphoto{
-    size:70% 70%;
     float:left;
     margin:10px;
     top:0%;
@@ -185,6 +184,16 @@ h1.mepage{
     position:absolute;
     color:#1C1C1C;
     text-align: center
+}
+#download{
+    padding-left:1%;
+    padding-right: 1%;
+    background-color: #9695E8;
+    border-radius: 30%;
+}
+#download:hover{
+    text-decoration: none;
+    background-color: #E8E095;
 }
 .linksm.mepage{
     position:fixed;
@@ -304,7 +313,7 @@ a.intpage{
 }
 #intlinkvideos{
     color: green;
-    left:30%;
+    left:20%;
 }
 #intlinkbooks{
     color: blue;
@@ -312,7 +321,7 @@ a.intpage{
 }
 #intlinkgames{
     color:orange;
-    left:30%;
+    left:20%;
 }
 #intlinkmusic:hover{
     display: inline;
@@ -357,7 +366,7 @@ a.contact, h1.contact, aside.contact {
 #cont1{
     position:absolute;
     top:30%;
-    height:45%;
+    height:36%;
     width:100%;
     background-color:#E5E5E5;
 }
@@ -371,7 +380,7 @@ a.contact, h1.contact, aside.contact {
     color:orange;
     background-color:#404040;
     width:100%;
-    height:80%;
+    height:82%;
 }
 h1.contact{
     background-color:#FFFFFF;
@@ -415,12 +424,16 @@ nav.contact{
     height:100%;
 }
 #linkfb{
-    left:41%;
-    color:#C47CFF;
+    right:51%;
+    background-image: url(imgs/contactrefs/fb.jpg);
+    width: 30px;
+    height: 30px;
 }
 #linkvk{
-    left:42%;
-    color: green;
+    left:51%;
+    background-image: url(imgs/contactrefs/vk.png);
+    width: 30px;
+    height: 30px;
 }
 aside.contact{
     z-index:6;
@@ -740,7 +753,7 @@ h1.audiospage{
 }
 #fl{
     background-color: #C8C9CB;
-    top:30%;
+    top:20%;
     height:auto;
     width:auto;
 }

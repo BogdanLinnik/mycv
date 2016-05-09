@@ -260,6 +260,17 @@ $(document).ready(function() {
     $('#mushide').css('display','block');
     $(this).css('width','0%');
   });
+  $('#linkfb, #linkvk').on('mouseenter', function() {
+    if($(window).width()>768){
+      $(this).css('width','6%');
+      $(this).css('height','40%');
+      $(this).css('background-size','100% 100%')
+    }
+  });
+  $('#linkfb, #linkvk').on('mouseleave', function() {
+      $(this).css('width','30px');
+      $(this).css('height','30px');
+  });
   $('#stlinkme, #intlinkme, #clinkme, #sklinkme, #bklinkme, #mlinkme').on('click', function() {
     $('.startpage, .intpagexs, .intpage, .contact, .skillspage, .bookspage, .gamespage, .videospage, .audiospage').hide();
     $('body, div.container, #links2').removeClass('startpage intpagexs intpage contact skillspage bookspage gamespage videospage audiospage');

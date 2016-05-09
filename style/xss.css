@@ -5,6 +5,9 @@ html{
 body.mepage{
     position:relative;
 }
+h1.intpage{
+    position: absolute;
+}
 .linksm.mepage{
     position:absolute;
     width:100%;
