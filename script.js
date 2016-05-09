@@ -378,13 +378,11 @@ $(document).ready(function() {
         $.ajax({
             url: "https://formspree.io/bogdya.linnik@gmail.com", 
             method: "POST",
-            data: {name: name.value,email: email.value,message: message.value},
+            data: {message: sender.value+': '+message.value, email: email.value},
             dataType: "json"
         }).done(function () {
-            $('#fieldsetcontact1').html('<h1>Thank you!</h1>');
         })
         .fail(function (jqXHR, textStatus) {
-            $('#fieldsetcontact1').html('<h1>Error!</h1><br>'+textStatus);
         });
     });
     });
