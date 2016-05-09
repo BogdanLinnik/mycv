@@ -300,19 +300,19 @@ a.intpage{
 }
 #intlinkmusic{
     color:red;
-    left:30%;
+    left:20%;
 }
 #intlinkvideos{
     color: green;
-    right:80%;
+    left:30%;
 }
 #intlinkbooks{
     color: blue;
-    left:30%;
+    left:20%;
 }
 #intlinkgames{
     color:orange;
-    right:80%;
+    left:30%;
 }
 #intlinkmusic:hover{
     display: inline;

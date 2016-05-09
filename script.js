@@ -196,9 +196,69 @@ $(document).ready(function() {
       $(this).toggleClass('backgroundshobbies bgfa').animate({'left':'0%'},'slow');
       $('.linktexth').toggle('slow');
     } else {
-      $(this).css('background-color','')
-      $(this).css('color','#1C1C1C')
+      $(this).css('background-color','');
+      $(this).css('color','#1C1C1C');
     }
+  });
+  $('#intlinkbooks').on('mouseenter', function() {
+    if($(window).width()>768){
+      $(this).css('background-image','url(style/imgs/intrefs/intbook.jpg)');
+      $(this).css('background-size','100% 100%');
+      $(this).css('height','60%');
+      $('#bookhide').css('display','none');
+      $(this).css('width','60%');
+    }
+  });
+  $('#intlinkbooks').on('mouseleave', function() {
+    $(this).css('background-image','');
+    $(this).css('height','0%');
+    $('#bookhide').css('display','block');
+    $(this).css('width','0%');
+  });
+  $('#intlinkgames').on('mouseenter', function() {
+    if($(window).width()>768){
+      $(this).css('background-image','url(style/imgs/intrefs/intgame.jpg)');
+      $(this).css('background-size','100% 100%');
+      $(this).css('height','60%');
+      $('#gamehide').css('display','none');
+      $(this).css('width','60%');
+    }
+  });
+  $('#intlinkgames').on('mouseleave', function() {
+    $(this).css('background-image','');
+    $(this).css('height','0%');
+    $('#gamehide').css('display','block');
+    $(this).css('width','0%');
+  });
+  $('#intlinkvideos').on('mouseenter', function() {
+    if($(window).width()>768){
+      $(this).css('background-image','url(style/imgs/intrefs/intfilm.jpg)');
+      $(this).css('background-size','100% 100%');
+      $(this).css('height','60%');
+      $('#videohide').css('display','none');
+      $(this).css('width','60%');
+    }
+  });
+  $('#intlinkvideos').on('mouseleave', function() {
+    $(this).css('background-image','');
+    $(this).css('height','0%');
+    $('#videohide').css('display','block');
+    $(this).css('width','0%');
+  });
+  $('#intlinkmusic').on('mouseenter', function() {
+    if($(window).width()>768){
+      $(this).css('background-image','url(style/imgs/intrefs/intmus.jpg)');
+      $(this).css('background-size','100% 100%');
+      $(this).css('height','60%');
+      $('#mushide').css('display','none');
+      $(this).css('width','60%');
+    }
+  });
+  $('#intlinkmusic').on('mouseleave', function() {
+    $(this).css('background-image','');
+    $(this).css('height','0%');
+    $('#mushide').css('display','block');
+    $(this).css('width','0%');
   });
   $('#stlinkme, #intlinkme, #clinkme, #sklinkme, #bklinkme, #mlinkme').on('click', function() {
     $('.startpage, .intpagexs, .intpage, .contact, .skillspage, .bookspage, .gamespage, .videospage, .audiospage').hide();

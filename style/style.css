@@ -315,7 +315,7 @@ a.intpage{
     color: green;
     position:absolute;
     top:20%;
-    right:60%;
+    left:30%;
     height:auto;
     width:auto;
 }
@@ -331,7 +331,7 @@ a.intpage{
     color:orange;
     position:absolute;
     top:20%;
-    right:60%;
+    left:30%;
     height:auto;
     width:auto;
 }
