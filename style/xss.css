@@ -1,33 +1,56 @@
-html{ 
-    margin:auto auto;
+html {
+    margin: auto auto;
     min-width: 400px;
 }
-body.mepage{
-    position:relative;
+
+body.mepage {
+    position: relative;
 }
-h1.intpage{
+
+h1.intpage {
     position: absolute;
 }
-.linksm.mepage{
-    position:absolute;
-    width:100%;
-    height:16%;
+
+#ukr,
+#rus,
+#eng,
+#html,
+#css,
+#js {
+    display: none;
+    float: right;
 }
-a.intpage{
+
+.linksm.mepage {
+    position: absolute;
+    width: 100%;
+    height: 16%;
+}
+
+.inf {
+    text-align: left;
+}
+
+a.intpage {
     font-size: large;
 }
-#mlinkstart{
-    top: 0%; 
+
+#mlinkstart {
+    top: 0%;
 }
-#mlinkme{
-    top:18%;
+
+#mlinkme {
+    top: 18%;
 }
-#mlinkskills{
+
+#mlinkskills {
     top: 36%;
 }
-#mlinkcontacts{
-    top: 54%; 
+
+#mlinkcontacts {
+    top: 54%;
 }
-#mlinkhobbies{
-    top:72%;
+
+#mlinkhobbies {
+    top: 72%;
 }

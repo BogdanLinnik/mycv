@@ -1,247 +1,337 @@
 @font-face {
-    font-family:architectsdaughter;
-    src: url(fonts/architectsdaughter.ttf); 
+    font-family: architectsdaughter;
+    src: url(fonts/architectsdaughter.ttf);
 }
+
 @font-face {
-    font-family:berkshireswash-regular;
-    src: url(fonts/berkshireswash-regular.ttf); 
+    font-family: berkshireswash-regular;
+    src: url(fonts/berkshireswash-regular.ttf);
 }
-html{ 
-    max-width:2000px;
-    margin:auto auto;
-    max-height:1200px;
+
+html {
+    max-width: 2000px;
+    margin: auto auto;
+    max-height: 1200px;
     min-height: 700px
 }
-html,body,nav{
-    height:100%;
-    width:100%;
-    top:0%;
+
+html,
+body,
+nav {
+    height: 100%;
+    width: 100%;
+    top: 0%;
 }
-a{
-    color:black;
+
+#ukr,
+#rus,
+#eng,
+#html,
+#css,
+#js {
+    display: none;
+    float: right;
+}
+
+a {
+    color: black;
     z-index: 3;
 }
-.audiospage,.mediatool,#wrapper,#featured,#links, #header-content,#sidebar,#mediabar,#mediabarrow,#featured2,#links2, #header-content2{
-    text-align:center;
+
+.audiospage,
+.mediatool,
+#wrapper,
+#featured,
+#links,
+#header-content,
+#sidebar,
+#mediabar,
+#mediabarrow,
+#featured2,
+#links2,
+#header-content2 {
+    text-align: center;
     height: 100%;
 }
-#category,#category2{
+
+#category,
+#category2 {
     height: 90%;
 }
-#header,#header2{
-    text-align:center;
+
+#header,
+#header2 {
+    text-align: center;
     height: 10%;
 }
-.col-md-6{
-    height:50%;
+
+.col-md-6 {
+    height: 50%;
 }
-aside{
-    color:black;
+
+aside {
+    color: black;
 }
-*{
+
+* {
     margin: 0;
 }
-body.startpage{
-    display:block;
+
+body.startpage {
+    display: block;
     background-size: auto auto;
-    background-color:#F6F8F7;
+    background-color: #F6F8F7;
     background-image: url(bg/startpage.jpg);
     background-repeat: no-repeat;
 }
-.mepage, .intpage, .contact, .skillspage, .bookspage , .gamespage, .videospage, .audiospage{
-    display:none;
+
+.mepage,
+.intpage,
+.contact,
+.skillspage,
+.bookspage,
+.gamespage,
+.videospage,
+.audiospage {
+    display: none;
 }
-body{
+
+body {
     background-position: center;
 }
-body{
-    font-family:architectsdaughter;
+
+body {
+    font-family: architectsdaughter;
 }
-h1{
-    font-family:berkshireswash-regular;
+
+h1 {
+    font-family: berkshireswash-regular;
 }
-.linktexts{
+
+.linktexts {
     width: auto;
 }
-h1.startpage{
-    margin:0%;
-    width:100%;
-    position:relative;
-    top:0%;
-    color:#1C1C1C;
-    background-color:#F6F8F7; 
+
+h1.startpage {
+    margin: 0%;
+    width: 100%;
+    position: relative;
+    top: 0%;
+    color: #1C1C1C;
+    background-color: #F6F8F7;
     text-align: center;
 }
-a,button, h1{
+
+a,
+button,
+h1 {
     position: absolute;
     text-decoration: none;
 }
-a.startpage{
+
+a.startpage {
     border-color: #1C1C1C;
     border-width: 10px;
-    font-size:xx-large;
-    color:#1C1C1C;
+    font-size: xx-large;
+    color: #1C1C1C;
 }
-#stlinkme{
+
+#stlinkme {
     text-align: left;
-    top:10%;
-    left:0%;
+    top: 10%;
+    left: 0%;
 }
-#stlinkskills{
+
+#stlinkskills {
     text-align: right;
-    top:10%;
+    top: 10%;
     width: 100%;
     right: 0%;
-    margin:0 0;
+    margin: 0 0;
 }
-#stlinkhobbies{
+
+#stlinkhobbies {
     text-align: left;
-    bottom:10%;
-    left:0%;
+    bottom: 10%;
+    left: 0%;
     width: 100%;
 }
-#stlinkcontacts{
+
+#stlinkcontacts {
     text-align: right;
-    bottom:10%;
+    bottom: 10%;
     width: 100%;
     right: 0%;
-    margin:0 0;
+    margin: 0 0;
 }
-#sidebarrow.intpage{
-    height:100%;
+
+#sidebarrow.intpage {
+    height: 100%;
 }
-.row.intpage{
-    height:50%;
+
+.row.intpage {
+    height: 50%;
 }
-.bgfa{
-    background-size:100% 100%;
+
+.bgfa {
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    width:60%;
-    height:60%;
-    min-width:100px;
-    padding:2%;
+    width: 60%;
+    height: 60%;
+    min-width: 100px;
+    padding: 2%;
 }
-.backgroundcontacts{
+
+.backgroundcontacts {
     opacity: 0.9;
     background-image: url(imgs/startrefs/contacts.jpg);
-    bottom:0%;
-    right:0%;
+    bottom: 0%;
+    right: 0%;
 }
-.backgroundskills{
+
+.backgroundskills {
     opacity: 0.9;
     background-image: url(imgs/startrefs/skills.jpg);
-    top:0%;
-    right:0%;
+    top: 0%;
+    right: 0%;
 }
 
-.backgroundsme{
+.backgroundsme {
     opacity: 0.9;
     background-image: url(imgs/startrefs/me.png);
-    top:0%;
-    left:0%;
+    top: 0%;
+    left: 0%;
 }
 
-.backgroundshobbies{
+.backgroundshobbies {
     opacity: 0.9;
     background-image: url(imgs/startrefs/hobbies.jpg);
-    bottom:0%;
-    left:0%;
+    bottom: 0%;
+    left: 0%;
 }
-body.mepage{
-    background-color:#F6F8F7;
+
+body.mepage {
+    background-color: #F6F8F7;
     background-repeat: no-repeat;
 }
-#myphoto{
-    float:left;
-    margin:10px;
-    top:0%;
-    left:0%;
+
+#myphoto {
+    float: left;
+    margin: 10px;
+    top: 0%;
+    left: 0%;
 }
-#download{
-    padding-left:1%;
+
+#download {
+    padding-left: 1%;
     padding-right: 1%;
     background-color: #9695E8;
     border-radius: 30%;
 }
-#download:hover{
+
+#download:hover {
     text-decoration: none;
     background-color: #E8E095;
 }
-#wrapper.mepage{
-    margin:auto auto;
+
+#wrapper.mepage {
+    margin: auto auto;
 }
-.biogr{
-    border-width:10px;
-    border-color:black;
-    height:100%;
-    position:absolute;
-    top:0%;
+
+.biogr {
+    border-width: 10px;
+    border-color: black;
+    height: 100%;
+    position: absolute;
+    top: 0%;
     font-size: 1.5em;
 }
-h1.mepage, h1.intpage{
-    width:100%;
-    left:0%;
-    background-color:#587F6C;
-    z-index:2;
-    position:absolute;
-    color:#1C1C1C;
+
+h1.mepage,
+h1.intpage {
+    width: 100%;
+    left: 0%;
+    background-color: #587F6C;
+    z-index: 2;
+    position: absolute;
+    color: #1C1C1C;
     text-align: center
 }
-.linksm{
-    position:absolute;
-    height:20%;
+
+.linksm {
+    position: absolute;
+    height: 20%;
 }
-a.mepage{
+
+a.mepage {
     text-align: center;
-    font-size:large;
+    font-size: large;
     text-decoration: none;
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
 }
-main{
-    background-color:#FDFFFE;
-    height:100%;
+
+main {
+    background-color: #FDFFFE;
+    height: 100%;
 }
-#clinkme,#clinkhobbies,#clinkskills,#clinkstart,#sklinkme,#sklinkhobbies,#sklinkcontacts,#sklinkstart{
+
+#clinkme,
+#clinkhobbies,
+#clinkskills,
+#clinkstart,
+#sklinkme,
+#sklinkhobbies,
+#sklinkcontacts,
+#sklinkstart {
     text-align: center;
-    font-size:large;
+    font-size: large;
     text-decoration: none;
-    color:#1C1C1C;
-    height:25%;
+    color: #1C1C1C;
+    height: 25%;
     width: 15%;
-    left:0%;
+    left: 0%;
 }
-.mlinktext{
+
+.mlinktext {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.linksm:hover{
+
+.linksm:hover {
     display: block;
-    color:yellow;
+    color: yellow;
     background-color: black;
 }
+
 #myinformation {
     text-align: center;
     font-size: 0.8em;
 }
-#mlinkstart{
-    top: 0%; 
+
+#mlinkstart {
+    top: 0%;
 }
-#mlinkme{
-    top: 20%; 
+
+#mlinkme {
+    top: 20%;
 }
-#mlinkskills{
+
+#mlinkskills {
     top: 40%;
 }
-#mlinkcontacts{
+
+#mlinkcontacts {
     top: 60%;
 }
-#mlinkhobbies{
-    top: 80%; 
+
+#mlinkhobbies {
+    top: 80%;
 }
+
 body.intpage {
     background-size: 78% 100%;
     background-image: url(bg/interests.png);
@@ -249,125 +339,152 @@ body.intpage {
     background-repeat: no-repeat;
     background-color: #EFEEEB;
 }
-.media{
-    left:20%;
-    width:80%;
-    text-align:center;
-    position:absolute;
-    top:30%;
+
+.media {
+    left: 20%;
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    top: 30%;
 }
-header.intpage{
-    position: fixed;    
-    top:24%;
-    width:50%;
-    left:25%;
-    height:15%;
+
+header.intpage {
+    position: fixed;
+    top: 24%;
+    width: 50%;
+    left: 25%;
+    height: 15%;
 }
-h1.intpage{
-    position:absolute;
+
+h1.intpage {
+    position: absolute;
     left: 15%;
     background-color: #EFEEEB;
-    width:85%;
-    color:#1C1C1C;
+    width: 85%;
+    color: #1C1C1C;
     text-align: center
 }
-a.intpage{
-    font-size:xx-large;
-    position:absolute;
+
+a.intpage {
+    font-size: xx-large;
+    position: absolute;
 }
-.col-xs-6{
-    height:100%;
+
+.col-xs-6 {
+    height: 100%;
 }
-#intlinkme,#intlinkcontacts,#intlinkskills,#intlinkstart{
+
+#intlinkme,
+#intlinkcontacts,
+#intlinkskills,
+#intlinkstart {
     background-color: #EFEEEB;
 }
-#intlinkstart{
-    top:0%;
+
+#intlinkstart {
+    top: 0%;
 }
-#intlinkme{
-    top:25%;
+
+#intlinkme {
+    top: 25%;
 }
-#intlinkcontacts{
-    top:50%;
+
+#intlinkcontacts {
+    top: 50%;
 }
-#intlinkskills{
-    top:75%;
+
+#intlinkskills {
+    top: 75%;
 }
-#intlinkstart:hover{
+
+#intlinkstart:hover {
     display: block;
-    color:yellow;
+    color: yellow;
     background-color: black;
 }
-#intlinkme:hover{
+
+#intlinkme:hover {
     display: block;
-    color:yellow;
+    color: yellow;
     background-color: black;
 }
-#intlinkcontacts:hover{
+
+#intlinkcontacts:hover {
     display: block;
-    color:yellow;
+    color: yellow;
     background-color: black;
 }
-#intlinkskills:hover{
+
+#intlinkskills:hover {
     display: block;
-    color:yellow;
+    color: yellow;
     background-color: black;
 }
-#intlinkmusic{
-    position:absolute;
-    top:30%;
-    left:60%;
-    height:auto;
-    width:auto;
-    color:red;
+
+#intlinkmusic {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    height: auto;
+    width: auto;
+    color: red;
 }
-#intlinkvideos{
+
+#intlinkvideos {
     color: green;
-    position:absolute;
-    top:30%;
-    left:40%;
-    height:auto;
-    width:auto;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    height: auto;
+    width: auto;
 }
-#intlinkbooks{
+
+#intlinkbooks {
     color: blue;
-    position:absolute;
-    top:20%;
-    left:60%;
-    height:auto;
-    width:auto;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    height: auto;
+    width: auto;
 }
-#intlinkgames{
-    color:orange;
-    position:absolute;
-    top:20%;
-    left:40%;
-    height:auto;
-    width:auto;
+
+#intlinkgames {
+    color: orange;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    height: auto;
+    width: auto;
 }
-#intlinkmusic:hover{
+
+#intlinkmusic:hover {
     display: inline;
-    color:yellow;
+    color: yellow;
 }
-#intlinkbooks:hover{
+
+#intlinkbooks:hover {
     display: inline;
-    color:yellow;
+    color: yellow;
 }
-#intlinkgames:hover{
+
+#intlinkgames:hover {
     display: inline;
-    background-color:black;
-    color:yellow;
+    background-color: black;
+    color: yellow;
 }
-#intlinkvideos:hover{
+
+#intlinkvideos:hover {
     display: inline;
-    color:yellow;
+    color: yellow;
 }
-#intstartpage{
+
+#intstartpage {
     font-size: large;
-    color:#626262;
-    background-color:#EFEEEB;
-    width:9%;
+    color: #626262;
+    background-color: #EFEEEB;
+    width: 9%;
 }
+
 body.contact {
     background-size: 100% 100%;
     background-image: url(bg/contacts.jpg);
@@ -375,212 +492,265 @@ body.contact {
     background-repeat: no-repeat;
     background-color: #FEFEFE;
 }
-a.contact, h1.contact, aside.contact {
+
+a.contact,
+h1.contact,
+aside.contact {
     text-decoration: none;
     position: absolute;
 }
-#header2.contact{
-    margin-top:0;
+
+#header2.contact {
+    margin-top: 0;
 }
-.row.contact{
-    position:relative;
-    font-size:larger;
+
+.row.contact {
+    position: relative;
+    font-size: larger;
 }
-input, button{
-    color:black;
+
+input,
+button {
+    color: black;
 }
-#cont1{
-    position:absolute;
-    top:30%;
-    height:40%;
-    width:100%;
-    background-color:#E5E5E5;
+
+#cont1 {
+    position: absolute;
+    top: 30%;
+    height: 40%;
+    width: 100%;
+    background-color: #E5E5E5;
 }
-#contac1,#contac2{
-    position:absolute;
-    height:100%;
-    width:100%;
+
+#contac1,
+#contac2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
-#fieldsetcontact1{
-    position:absolute;
-    height:70%;
-    background-color:#404040;
+
+#fieldsetcontact1 {
+    position: absolute;
+    height: 70%;
+    background-color: #404040;
 }
-h1.contact{
-    background-color:#FFFFFF;
+
+h1.contact {
+    background-color: #FFFFFF;
     width: auto;
     position: absolute;
     width: 100%;
-    color:#57585A;
+    color: #57585A;
     text-align: center;
 }
-#clinkstart:hover{
+
+#clinkstart:hover {
     display: block;
-    color:yellow;
+    color: yellow;
     background-color: black;
 }
-#clinkhobbies:hover{
+
+#clinkhobbies:hover {
     display: block;
-    color:yellow;
+    color: yellow;
     background-color: black;
 }
-#clinkme:hover{
+
+#clinkme:hover {
     display: block;
-    color:yellow;
+    color: yellow;
     background-color: black;
 }
-#clinkskills:hover{
+
+#clinkskills:hover {
     display: block;
-    color:yellow;
+    color: yellow;
     background-color: black;
 }
-#contactp1{
-    font-size:larger;
-    color:blue;
+
+#contactp1 {
+    font-size: larger;
+    color: blue;
 }
-#contactp2{
-    font-size:larger;
-    color:red;
+
+#contactp2 {
+    font-size: larger;
+    color: red;
 }
-#legendcontact1{
-    color:orange;
+
+#legendcontact1 {
+    color: orange;
 }
-#fieldsetcontact1{
-    position:absolute;
-    width:100%;
-    height:100%;
-    color:orange;
+
+#fieldsetcontact1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: orange;
 }
-#linkfb{
-    right:51%;
+
+#linkfb {
+    right: 51%;
     background-image: url(imgs/contactrefs/fb.jpg);
     width: 30px;
     height: 30px;
 }
-#linkvk{
-    left:51%;
+
+#linkvk {
+    left: 51%;
     background-image: url(imgs/contactrefs/vk.png);
     width: 30px;
     height: 30px;
 }
-aside.contact{
-    z-index:6;
-    width: 100%;
-    text-align: center;
-}
-li{
+
+aside.contact {
+    z-index: 6;
     width: 100%;
     text-align: center;
 }
 
-body.skillspage{
+li {
+    width: 100%;
+    text-align: center;
+}
+
+body.skillspage {
     background-color: #FDFDFD;
     background-image: url(bg/skill.jpg);
     background-position: center;
     background-repeat: repeat;
-    max-width:2000px;
-    max-height:1200px;
+    max-width: 2000px;
+    max-height: 1200px;
 }
-#sk1,#sk2 {
-    height:30%;
+
+#sk1,
+#sk2 {
+    height: 30%;
 }
-#sk3{
-    height:70%;
+
+#sk3 {
+    height: 70%;
 }
-.skillcol{
-    position:absolute;
-    width:100%;
-    height:100%;
+
+.skillcol {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
-h1.skillspage{
+
+h1.skillspage {
     z-index: 4;
     background-color: #FFFFE5;
     text-align: center;
-    color:green;
+    color: green;
     width: 100%
 }
-nav.skillspage{
+
+nav.skillspage {
     position: absolute;
-    height:100%;
-    left:0%;
-    width:100%; 
+    height: 100%;
+    left: 0%;
+    width: 100%;
 }
-#a1{
-    top:20%;
-    height:60%;
+
+#a1 {
+    top: 20%;
+    height: 80%;
     border-radius: 30%;
     background-color: #B8C4CC;
     font-size: large;
     position: absolute;
     color: black;
-    left:20%;
+    left: 20%;
     width: 60%;
-    text-align:center;
-}
-#a2{
-    top:20%;
-    height:60%;
-    border-radius: 30%;
-    background-color: #A1ACB2;
-    font-size: large;
-    position: absolute;
-    color: black;
-    left:20%;
-    width: 60%;
-    text-align:center;
-}
-#a3{
-    top:10%;
-    height:60%;
-    border-radius: 30%;
-    background-color: #A1ACB2;
-    font-size: large;
-    position: absolute;
-    color: black;
-    left:10%;
-    width: 80%;
-    text-align:center;
-}
-#sklinkme,#sklinkhobbies,#sklinkcontacts,#sklinkstart{
-background-color:#FCFDFD;
-}
-#sklinkstart{
-    top:0%;
-}
-#sklinkme{
-    top:25%;
-}
-#sklinkhobbies{
-    top:50%;
-}
-#sklinkcontacts{
-    top:75%;
-}
-#sklinkstart:hover{
-    display: block;
-    color:yellow;
-    background-color: black;
-}
-#sklinkhobbies:hover{
-    display: block;
-    color:yellow;
-    background-color: black;
-}
-#sklinkme:hover{
-    display: block;
-    color:yellow;
-    background-color: black;
-}
-#sklinkcontacts:hover{
-    display: block;
-    color:yellow;
-    background-color: black;
-}
-h1.bookspage, h1.gamespage,h1.videospage,h1.audiospage{
     text-align: center;
-    color:green;
-    height:auto;
-    width:100%;
+}
+
+#a2 {
+    top: 20%;
+    height: 80%;
+    border-radius: 30%;
+    background-color: #A1ACB2;
+    font-size: large;
+    position: absolute;
+    color: black;
+    left: 20%;
+    width: 60%;
+    text-align: center;
+}
+
+.inf {
+    text-align: left;
+}
+
+#a3 {
+    top: 10%;
+    height: 60%;
+    border-radius: 30%;
+    background-color: #A1ACB2;
+    font-size: large;
+    position: absolute;
+    color: black;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+}
+
+#sklinkme,
+#sklinkhobbies,
+#sklinkcontacts,
+#sklinkstart {
+    background-color: #FCFDFD;
+}
+
+#sklinkstart {
+    top: 0%;
+}
+
+#sklinkme {
+    top: 25%;
+}
+
+#sklinkhobbies {
+    top: 50%;
+}
+
+#sklinkcontacts {
+    top: 75%;
+}
+
+#sklinkstart:hover {
+    display: block;
+    color: yellow;
+    background-color: black;
+}
+
+#sklinkhobbies:hover {
+    display: block;
+    color: yellow;
+    background-color: black;
+}
+
+#sklinkme:hover {
+    display: block;
+    color: yellow;
+    background-color: black;
+}
+
+#sklinkcontacts:hover {
+    display: block;
+    color: yellow;
+    background-color: black;
+}
+
+h1.bookspage,
+h1.gamespage,
+h1.videospage,
+h1.audiospage {
+    text-align: center;
+    color: green;
+    height: auto;
+    width: 100%;
 }
 
 body.bookspage {
@@ -590,172 +760,231 @@ body.bookspage {
     background-position: center;
     background-repeat: repeat-x;
 }
-h1.bookspage{
-    background-color:#F4D421; 
+
+h1.bookspage {
+    background-color: #F4D421;
 }
-a.bookspage, aside.bookspage, a.gamespage, aside.gamespage, a.videospage, aside.videospage, a.audiospage, aside.audiospage {
+
+a.bookspage,
+aside.bookspage,
+a.gamespage,
+aside.gamespage,
+a.videospage,
+aside.videospage,
+a.audiospage,
+aside.audiospage {
     text-decoration: none;
     position: absolute;
 }
-aside.bookspage, aside.gamespage, aside.videospage, aside.audiospage{
-    position:absolute;
-    width:100%;
-    height:100%;
-    padding:1%;
-    left:0;
-    top:0%;
+
+aside.bookspage,
+aside.gamespage,
+aside.videospage,
+aside.audiospage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    left: 0;
+    top: 0%;
 }
-aside.bookspage, aside.gamespage, aside.videospage{
-    overflow:scroll;
+
+aside.bookspage,
+aside.gamespage,
+aside.videospage {
+    overflow: scroll;
 }
-.faf,.saf,.taf{
+
+.faf,
+.saf,
+.taf {
     font-size: medium;
 }
-.linksheref, .faf{
-    background-color:#AB14CC;
+
+.linksheref,
+.faf {
+    background-color: #AB14CC;
 }
-.linksheres, .saf{
-    background-color:#FFB700;
+
+.linksheres,
+.saf {
+    background-color: #FFB700;
 }
-.linksheret, .taf{
-    background-color:#00FFA9;
+
+.linksheret,
+.taf {
+    background-color: #00FFA9;
 }
-#navigation1{
-    z-index:1;
+
+#navigation1 {
+    z-index: 1;
     position: fixed;
-    top:0%;
-    left:0%;
-    height:100%;
-    width:10%; 
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 10%;
 }
-#navigation2{
-    z-index:1;
+
+#navigation2 {
+    z-index: 1;
     position: fixed;
-    top:0%;
-    right:0%;
-    height:100%;
-    width:10%; 
-    text-align:center;
-}
-.linkshere:hover{
-    display: inline;
-    color:orange;
-}
-#bklinkstart, #bklinkme, #bklinkhobbies, #bklinkcontacts, #bklinkskills{
+    top: 0%;
+    right: 0%;
+    height: 100%;
+    width: 10%;
     text-align: center;
-    font-size:large;
-    text-decoration: none;
-    height:20%;
-    width: 100%;
-    left:0%;
 }
-#bklinkstart{
-    top:0%;
+
+.linkshere:hover {
+    display: inline;
+    color: orange;
+}
+
+#bklinkstart,
+#bklinkme,
+#bklinkhobbies,
+#bklinkcontacts,
+#bklinkskills {
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    height: 20%;
+    width: 100%;
+    left: 0%;
+}
+
+#bklinkstart {
+    top: 0%;
     background-color: #2176F4;
 }
-#bklinkme{
-    top:20%;
+
+#bklinkme {
+    top: 20%;
     background-color: #0CE8D7;
 }
-#bklinkhobbies{
-    top:40%;
+
+#bklinkhobbies {
+    top: 40%;
     background-color: #00FF33;
 }
-#bklinkcontacts{
-    top:60%;
+
+#bklinkcontacts {
+    top: 60%;
     background-color: #98E80C;
 }
-#bklinkskills{
-    top:80%;
+
+#bklinkskills {
+    top: 80%;
     background-color: #E8400C;
 }
-#bklinkstart:hover{
+
+#bklinkstart:hover {
     display: block;
-    color:yellow;
+    color: yellow;
     background-color: black;
 }
-#bklinkhobbies:hover{
+
+#bklinkhobbies:hover {
     display: block;
-    color:yellow;
+    color: yellow;
     background-color: black;
 }
-#bklinkme:hover{
+
+#bklinkme:hover {
     display: block;
-    color:yellow;
+    color: yellow;
     background-color: black;
 }
-#bklinkcontacts:hover{
+
+#bklinkcontacts:hover {
     display: block;
-    color:yellow;
+    color: yellow;
     background-color: black;
 }
-#bklinkskills:hover{
+
+#bklinkskills:hover {
     display: block;
-    color:yellow;
+    color: yellow;
     background-color: black;
 }
-#bklinkbooks, #bklinkvideos, #bklinkmusic, #bklinkgames{
+
+#bklinkbooks,
+#bklinkvideos,
+#bklinkmusic,
+#bklinkgames {
     text-align: center;
-    font-size:large;
+    font-size: large;
     text-decoration: none;
-    height:25%;
+    height: 25%;
     width: 100%;
     right: 0%;
 }
-#ta{
+
+#ta {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#bklinkbooks{
-    top:0%;
+
+#bklinkbooks {
+    top: 0%;
     background-color: #2CFF0D;
 }
-#bklinkvideos{
-    top:25%;
+
+#bklinkvideos {
+    top: 25%;
     background-color: #0CA8E8;
 }
-#bklinkmusic{
-    top:50%;
+
+#bklinkmusic {
+    top: 50%;
     background-color: #A000FF;
 }
-#bklinkgames{
-    top:75%;
+
+#bklinkgames {
+    top: 75%;
     background-color: #E8400C;
 }
-#bklinkbooks:hover{
+
+#bklinkbooks:hover {
     display: block;
-    color:blue;
+    color: blue;
     background-color: white;
 }
-#bklinkvideos:hover{
+
+#bklinkvideos:hover {
     display: block;
-    color:blue;
+    color: blue;
     background-color: white;
 }
-#bklinkmusic:hover{
+
+#bklinkmusic:hover {
     display: block;
-    color:blue;
+    color: blue;
     background-color: white;
 }
-#bklinkgames:hover{
+
+#bklinkgames:hover {
     display: block;
-    color:blue;
+    color: blue;
     background-color: white;
 }
-.text1{
+
+.text1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.text2{
+
+.text2 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 body.gamespage {
     background-size: 80% 100%;
     background-color: #F4F4F4;
@@ -763,10 +992,12 @@ body.gamespage {
     background-position: center;
     background-repeat: repeat-x;
 }
-h1.gamespage{
-    font-size:1.5em;
-    background-color:#F4F4F4; 
+
+h1.gamespage {
+    font-size: 1.5em;
+    background-color: #F4F4F4;
 }
+
 body.videospage {
     background-size: 80% 100%;
     background-color: #FFFFFF;
@@ -774,25 +1005,29 @@ body.videospage {
     background-position: center;
     background-repeat: repeat-x;
 }
-h1.videospage{
-    font-size:1.5em;
-    left:10%;
-    width:80%;
-    background-color:#FFFFFF; 
+
+h1.videospage {
+    font-size: 1.5em;
+    left: 10%;
+    width: 80%;
+    background-color: #FFFFFF;
 }
-body.audiospage{
+
+body.audiospage {
     background-size: 80% 100%;
     background-color: #C8C9CB;
     background-image: url(bg/music.jpg);
     background-position: center;
     background-repeat: repeat-x;
 }
-h1.audiospage{
+
+h1.audiospage {
     background-color: #C8C9CB;
 }
-#fl{
+
+#fl {
     background-color: #C8C9CB;
-    top:20%;
+    top: 20%;
     height: auto;
-    width:auto;
+    width: auto;
 }

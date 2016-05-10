@@ -1,162 +1,197 @@
 @font-face {
-    font-family:architectsdaughter;
-    src: url(fonts/architectsdaughter.ttf); 
-}
-@font-face {
-    font-family:berkshireswash-regular;
-    src: url(fonts/berkshireswash-regular.ttf); 
-}
-html{ 
-    margin:auto auto;
-    min-width: 400px;
-    max-height:1200px;
-    min-height: 700px;
-}
-body{
-    font-family:architectsdaughter;
-}
-h1{
-    font-family:berkshireswash-regular;
+    font-family: architectsdaughter;
+    src: url(fonts/architectsdaughter.ttf);
 }
 
-html,body{
-    height:100%;
-    width:100%;
+@font-face {
+    font-family: berkshireswash-regular;
+    src: url(fonts/berkshireswash-regular.ttf);
 }
-#mlinkstart{
-    top: 4%; 
+
+html {
+    margin: auto auto;
+    min-width: 400px;
+    max-height: 1200px;
+    min-height: 700px;
 }
-#mlinkme{
-    top: 20%; 
+
+body {
+    font-family: architectsdaughter;
 }
-#mlinkskills{
+
+h1 {
+    font-family: berkshireswash-regular;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#mlinkstart {
+    top: 4%;
+}
+
+#mlinkme {
+    top: 20%;
+}
+
+#mlinkskills {
     top: 36%;
 }
-#mlinkcontacts{
+
+#mlinkcontacts {
     top: 52%;
 }
-#mlinkhobbies{
-    top: 68%; 
+
+#mlinkhobbies {
+    top: 68%;
 }
-a.startpage,a.mepage, a.intpage{
-    font-size:small;
+
+a.startpage,
+a.mepage,
+a.intpage {
+    font-size: small;
 }
-h1.startpage{
-    font-size:large;
+
+h1.startpage {
+    font-size: large;
 }
-#sidebar{
-    padding:0;
+
+#sidebar {
+    padding: 0;
 }
-#wrapper.mepage{
-    margin-right:0;
+
+#wrapper.mepage {
+    margin-right: 0;
 }
-#myphoto{
-    float:left;
-    margin-left:70px;
-    margin-right:60px;
-    width:50%;
-    height:50%;
-    top:0%;
-    left:0%;
+
+#myphoto {
+    float: left;
+    margin-left: 70px;
+    margin-right: 60px;
+    width: 50%;
+    height: 50%;
+    top: 0%;
+    left: 0%;
 }
-h1.mepage{
-    background-color:#587F6C;
-    z-index:2;
-    left:20%;
-    width:60%;
-    position:fixed;
-    color:#1C1C1C;
+
+h1.mepage {
+    background-color: #587F6C;
+    z-index: 2;
+    left: 20%;
+    width: 60%;
+    position: fixed;
+    color: #1C1C1C;
     text-align: center
 }
-.linksm{
-    position:fixed;
-    height:16%;
-    width:20%;
+
+.linksm {
+    position: fixed;
+    height: 16%;
+    width: 20%;
 }
-.mlinktext{
+
+.mlinktext {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#cont1{
-    position:absolute;
-    top:30%;
-    height:26%;
-    width:100%;
-    background-color:#E5E5E5;
+
+#cont1 {
+    position: absolute;
+    top: 30%;
+    height: 26%;
+    width: 100%;
+    background-color: #E5E5E5;
 }
-#fieldsetcontact1{
-    height:50%;
+
+#fieldsetcontact1 {
+    height: 50%;
 }
-a.mepage{
+
+a.mepage {
     text-align: center;
     text-decoration: none;
-    height:100%;
-    width:100%;
-    background-color:#B0FFD8;
+    height: 100%;
+    width: 100%;
+    background-color: #B0FFD8;
 }
-main{
-    background-color:#FDFFFE;
-    height:100%;
+
+main {
+    background-color: #FDFFFE;
+    height: 100%;
 }
-.col-xs-6{
-    height:100%;
+
+.col-xs-6 {
+    height: 100%;
 }
-h1.intpage,a.intpage{
-    font-size:small;
+
+h1.intpage,
+a.intpage {
+    font-size: small;
 }
-h1.intpage{
-    position:fixed;
+
+h1.intpage {
+    position: fixed;
     left: 0%;
     background-color: #EFEEEB;
-    width:90%;
-    height:auto;
-    color:#1C1C1C;
+    width: 90%;
+    height: auto;
+    color: #1C1C1C;
     text-align: center
 }
-#intlinkmusic{
-    position:absolute;
-    top:30%;
-    left:40%;
-    height:auto;
-    width:auto;
-    color:red;
+
+#intlinkmusic {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    height: auto;
+    width: auto;
+    color: red;
 }
-#intlinkvideos{
+
+#intlinkvideos {
     color: green;
-    position:absolute;
-    top:30%;
-    right:90%;
-    height:auto;
-    width:auto;
+    position: absolute;
+    top: 30%;
+    right: 90%;
+    height: auto;
+    width: auto;
 }
-#intlinkbooks{
+
+#intlinkbooks {
     color: blue;
-    position:absolute;
-    top:30%;
-    left:40%;
-    height:auto;
-    width:auto;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    height: auto;
+    width: auto;
 }
-#intlinkgames{
-    color:orange;
-    position:absolute;
-    top:30%;
-    right:90%;
-    height:auto;
-    width:auto;
+
+#intlinkgames {
+    color: orange;
+    position: absolute;
+    top: 30%;
+    right: 90%;
+    height: auto;
+    width: auto;
 }
-#download{
-    padding-left:1%;
+
+#download {
+    padding-left: 1%;
     padding-right: 1%;
     background-color: #9695E8;
     border-radius: 30%;
 }
-#download:hover{
+
+#download:hover {
     text-decoration: none;
     background-color: #E8E095;
 }
+
 body.contact {
     background-size: 100% 100%;
     background-image: url(bg/contacts.jpg);
@@ -164,71 +199,108 @@ body.contact {
     background-repeat: no-repeat;
     background-color: #FEFEFE;
 }
-.contact{
-    font-size:small;
+
+.contact {
+    font-size: small;
 }
-h1.contact{
-    font-size:large;
-    width:auto;
+
+h1.contact {
+    font-size: large;
+    width: auto;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#contac1,#contac2{
-    position:absolute;
-    height:100%;
-    width:80%;
+
+#contac1,
+#contac2 {
+    position: absolute;
+    height: 100%;
+    width: 80%;
 }
-#a1{
-    top:5%;
-    height:100%;
+
+#a1 {
+    top: 5%;
+    height: 100%;
     border-radius: 30%;
     background-color: #B8C4CC;
     font-size: small;
     position: absolute;
     color: black;
-    left:15%;
+    left: 15%;
     width: 60%;
-    text-align:center;
-}
-#a2{
-    top:5%;
-    height:100%;
-    border-radius: 30%;
-    background-color: #A1ACB2;
-    font-size: small;
-    position: absolute;
-    color: black;
-    left:15%;
-    width: 60%;
-    text-align:center;
-}
-#a3{
-    top:5%;
-    height:100%;
-    border-radius: 30%;
-    background-color: #A1ACB2;
-    font-size: small;
-    position: absolute;
-    color: black;
-    left:5%;
-    width: 80%;
-    text-align:center;
-}
-#sk1,#sk2 {
-    height:18%;
-}
-#sk3{
-    height:60%;
-}
-h1.bookspage, h1.gamespage,h1.videospage,h1.audiospage{
     text-align: center;
-    color:green;
-    height:auto;
-    left:15%;
-    width:70%;
 }
-#bklinkstart, #bklinkme, #bklinkhobbies, #bklinkcontacts, #bklinkskills,#bklinkbooks, #bklinkvideos, #bklinkmusic, #bklinkgames{
-    font-size:small;
+
+#ukr,
+#rus,
+#eng,
+#html,
+#css,
+#js {
+    display: none;
+    float: right;
+}
+
+.inf {
+    text-align: left;
+}
+
+#a2 {
+    top: 5%;
+    height: 100%;
+    border-radius: 30%;
+    background-color: #A1ACB2;
+    font-size: small;
+    position: absolute;
+    color: black;
+    left: 15%;
+    width: 60%;
+    text-align: center;
+}
+
+#a3 {
+    top: 5%;
+    height: 100%;
+    border-radius: 30%;
+    background-color: #A1ACB2;
+    font-size: small;
+    position: absolute;
+    color: black;
+    left: 5%;
+    width: 80%;
+    text-align: center;
+}
+
+#sk1,
+#sk2 {
+    height: 18%;
+}
+
+#sk3 {
+    height: 60%;
+}
+
+h1.bookspage,
+h1.gamespage,
+h1.videospage,
+h1.audiospage {
+    text-align: center;
+    color: green;
+    height: auto;
+    left: 15%;
+    width: 70%;
+}
+
+#bklinkstart,
+#bklinkme,
+#bklinkhobbies,
+#bklinkcontacts,
+#bklinkskills,
+#bklinkbooks,
+#bklinkvideos,
+#bklinkmusic,
+#bklinkgames {
+    font-size: small;
 }
