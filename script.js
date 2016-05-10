@@ -17,12 +17,7 @@ $(document).ready(function() {
       $('.allnav').css('background-color', '#B0FFD8');
       $('#ame').css('width', '105%');
       $('#ame').css('background-color', '#327F59');
-      if ($(window).width() > 991) {
-        $('#ask, #acon, #ahob').css('width', '100%');
-      }
-      else {
-        $('#ask, #acon, #ahob').css('width', '90%');
-      }
+      $('#ask, #acon, #ahob').css('width', '90%');
       $('title').text('Me');
       break;
     case '3':
@@ -33,12 +28,7 @@ $(document).ready(function() {
       $('.intpage').show();
       $('#ahob').css('width', '105%');
       $('#ahob').css('background-color', '#6F674C');
-      if ($(window).width() > 991) {
-        $('#ask, #acon, #ame').css('width', '100%');
-      }
-      else {
-        $('#ask, #acon, #ame').css('width', '90%');
-      }
+      $('#ask, #acon, #ame').css('width', '90%');
       $('title').text('Interests');
       break;
     case '4':
@@ -49,12 +39,7 @@ $(document).ready(function() {
       $('.contact').show();
       $('#acon').css('width', '105%');
       $('#acon').css('background-color', '#946868');
-      if ($(window).width() > 991) {
-        $('#ask, #ame, #ahob').css('width', '100%');
-      }
-      else {
-        $('#ask, #ame, #ahob').css('width', '90%');
-      }
+      $('#ask, #ame, #ahob').css('width', '90%');
       $('title').text('Contacts');
       break;
     case '5':
@@ -65,12 +50,7 @@ $(document).ready(function() {
       $('.skillspage').show();
       $('#ask').css('width', '105%');
       $('#ask').css('background-color', '#FE9A9A');
-      if ($(window).width() > 991) {
-        $('#ame, #acon, #ahob').css('width', '100%');
-      }
-      else {
-        $('#ame, #acon, #ahob').css('width', '90%');
-      }
+      $('#ame, #acon, #ahob').css('width', '90%');
       $('title').text('Skills');
       break;
     case '6':
@@ -372,12 +352,7 @@ $(document).ready(function() {
     $('.mepage').show();
     $('.allnav').css('background-color', '#B0FFD8');
     $('#ame').css('width', '105%');
-    if ($(window).width() > 991) {
-      $('#ask, #acon, #ahob').css('width', '100%');
-    }
-    else {
       $('#ask, #acon, #ahob').css('width', '90%');
-    }
     $('#ame').css('background-color', '#327F59');
     $('title').text('Me');
     localStorage.setItem(style, 2);
@@ -400,12 +375,7 @@ $(document).ready(function() {
     $('.intpage').show();
     $('#ahob').css('width', '105%');
     $('#ahob').css('background-color', '#6F674C');
-    if ($(window).width() > 991) {
-      $('#ask, #ame, #acon').css('width', '100%');
-    }
-    else {
       $('#ask, #ame, #acon').css('width', '90%');
-    }
     $('title').text('Interests');
     localStorage.setItem(style, 3);
     a = localStorage.getItem(style);
@@ -418,12 +388,7 @@ $(document).ready(function() {
     $('.contact').show();
     $('#acon').css('background-color', '#946868');
     $('#acon').css('width', '105%');
-    if ($(window).width() > 991) {
-      $('#ask, #ame, #ahob').css('width', '100%');
-    }
-    else {
       $('#ask, #ame, #ahob').css('width', '90%');
-    }
     $('title').text('Contacts');
     localStorage.setItem(style, 4);
     a = localStorage.getItem(style);
@@ -435,12 +400,7 @@ $(document).ready(function() {
     $('.allnav').css('background-color', '#B2A1A1');
     $('.skillspage').show();
     $('#ask').css('width', '105%');
-    if ($(window).width() > 991) {
-      $('#ame, #acon, #ahob').css('width', '100%');
-    }
-    else {
-      $('#ame, #acon, #ahob').css('width', '90%');
-    }
+    $('#ame, #acon, #ahob').css('width', '90%');
     $('#ask').css('background-color', '#FE9A9A');
     $('title').text('Skills');
     localStorage.setItem(style, 5);
